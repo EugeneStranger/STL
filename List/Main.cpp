@@ -54,7 +54,7 @@ void main()
 	cout << "Введите индекс добавляемого элемента: "; cin >> index;
 	cout << "Введите значение добавляемого элемента: "; cin >> value;
 	if (index == 0) list.push_front(value);
-	else if (index > list.size() - 1) list.push_back(value);
+	else if (index >= list.size()) list.push_back(value);
 		else
 		{
 			if (index < list.size() / 2)
