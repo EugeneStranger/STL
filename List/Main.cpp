@@ -92,9 +92,5 @@ void main()
 	}
 	for (int i : list) cout << i << tab; cout << endl;
 #endif // LIST
-
-
-
-
 }
 
