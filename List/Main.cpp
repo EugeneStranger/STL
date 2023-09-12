@@ -74,7 +74,7 @@ void main()
 	cout << delimiter;
 	cout << "Введите индекс удаляемого элемента: "; cin >> index;
 	if (index == 0) list.pop_front();
-	else if (index > list.size() - 1) list.pop_back();
+	else if (index >= list.size()) list.pop_back();
 	else
 	{
 		if (index < list.size() / 2)
